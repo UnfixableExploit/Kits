@@ -38,7 +38,6 @@ public class EventListener implements Listener {
         if (event.getInventory().getName().toLowerCase().startsWith("edit kit: ")) EditKit((Player) event.getPlayer(), event.getInventory());
     }
 
-    @SuppressWarnings("deprecation")
     @EventHandler
     public void onPlayerInteract(PlayerInteractEvent event) {
         if (event.getAction() != Action.RIGHT_CLICK_BLOCK && event.getAction() != Action.RIGHT_CLICK_AIR) return;

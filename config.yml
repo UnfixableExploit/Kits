@@ -1,0 +1,9 @@
+# -------------------------------------------------------------------
+# AutoSave
+# -------------------------------------------------------------------
+# This will enable Kits autosave feature.
+# The interval between saves accepts a time expression such as 1h30m (1 hour, 30 minutes).
+# It is advised that you do not set the interval too low, like every second.
+autosave:
+  enabled: true
+  interval: 8m

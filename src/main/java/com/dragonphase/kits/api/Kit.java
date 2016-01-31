@@ -23,8 +23,8 @@ public class Kit implements ConfigurationSerializable {
         setItems(items);
     }
 
-    @SuppressWarnings("unchecked")
-    public Kit(Map<String, Object> args) {
+	@SuppressWarnings("unchecked")
+	public Kit(Map<String, Object> args) {
         setName((String) args.get("name"));
         setItems(((ArrayList<ItemStack>) args.get("items")).toArray(new ItemStack[((ArrayList<ItemStack>) args.get("items")).size()]));
         setClear((Boolean) (args.containsKey("clear") ? args.get("clear") : true));

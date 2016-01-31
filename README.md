@@ -1,3 +1,7 @@
+# Kits Reborn :)
+A friend was having some problems with the easykits plugin, I told them to use the orginal Kits plugin. He said it wouldent work, so here is an working version
+for (Compiled with spigot-server) MC1.8.9
+
 # Kits
 
 Source code is provided by Dragonphase. You may modify this in anyway you like as long as you do not publish this as your own or make this your own in any way.
